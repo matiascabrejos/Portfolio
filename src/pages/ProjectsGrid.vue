@@ -1,7 +1,7 @@
 <template>
   <div class="mt-16 bg">
     <div
-      class="flex justify-center items-center text-base font-semibold text-white dark:text-gray-300"
+      class="flex justify-center items-center text-base font-semibold text-white"
     >
       <h2 class="text-center">Featured Projects</h2>
       <IconDoubleDown class="h-4 w-4" />
@@ -136,7 +136,7 @@
             <span class="span-grid"> #JavaScript </span>
             </div>
             <p class="description-grid">
-              Landing page from a travel app. It has a Check-In form in one of
+              Landing page from a gaming app. It has a Check-In form in one of
               the pages, as well as others features.
             </p>
             <div>
