@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="">
-      <h1 class="text-center py-4">Stack</h1>
+    <div class="flex justify-center items-center">
+      <h1 class="text-center py-4 mr-2">Stack</h1>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         aria-hidden="true"
         role="img"
-        class="iconify iconify--mdi h-4 w-4 animate-bounce mx-auto"
+        class="iconify iconify--mdi h-4 w-4 animate-bounce mt-2"
         width="32"
         height="32"
         preserveAspectRatio="xMidYMid meet"
@@ -20,55 +20,39 @@
       </svg>
     </div>
     <div class="flex items-center justify-center">
-      <div class="inline-grid lg:grid-cols-4 md:grid-cols-2 gap-10 py-6">
-        <div class="flex items-center">
+      <div class="inline-grid lg:grid-cols-4 md:grid-cols-4 grid-cols-4 gap-10 py-6">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-            class="animate-pulse"
+            class="animate-pulse img"
           />
-        </div>
-        <div class="flex items-center">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
             class="animate-pulse"
           />
-        </div>
-        <div class="flex items-center">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
             class="animate-pulse"
           />
-        </div>
-        <div class="flex items-center">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
             class="animate-pulse"
           />
-        </div>
-        <div class="flex items-center">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
             class="animate-pulse"
           />
-        </div>
-        <div class="flex items-center">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
             class="animate-pulse"
           />
-        </div>
-        <div class="flex items-center">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
             class="animate-pulse"
           />
-        </div>
-        <div class="flex items-center">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
             class="animate-pulse"
           />
-        </div>
       </div>
     </div>
   </div>
@@ -76,7 +60,7 @@
 
 <style scoped>
 img {
-  width: 50px;
-  height: 50px;
+  width: 46px;
+  height: 46px;
 }
 </style>
