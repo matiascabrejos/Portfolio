@@ -3,8 +3,23 @@
     <div
       class="flex justify-center items-center text-base font-semibold text-white"
     >
-      <h2 class="text-center">Featured Projects</h2>
-      <IconDoubleDown class="h-4 w-4" />
+      <h2 class="text-center py-4 mr-2">Featured Projects</h2>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true"
+        role="img"
+        class="iconify iconify--mdi h-4 w-4 animate-bounce mt-2"
+        width="32"
+        height="32"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M16.59 5.59L18 7l-6 6l-6-6l1.41-1.41L12 10.17l4.59-4.58m0 6L18 13l-6 6l-6-6l1.41-1.41L12 16.17l4.59-4.58z"
+          fill="currentColor"
+        ></path>
+      </svg>
     </div>
 
     <div class="wrapper-small my-5">
@@ -169,7 +184,7 @@
 }
 
 .title-grid {
-  @apply text-xl font-semibold text-white lg:text-left md:text-left text-center;
+  @apply text-xl font-semibold text-white lg:text-left md:text-left text-center mb-1;
 }
 
 .btn-grid {

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex justify-center items-center">
-      <h1 class="text-center py-4 mr-2">Stack</h1>
+      <h1 class="text-center py-4 mr-2 text-base font-semibold text-white">Stack</h1>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
