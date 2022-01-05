@@ -12,7 +12,7 @@
 
         <div class="navbar hidden md:block">
           <router-link class="nav-link" to="test">Portfolio</router-link>
-          <router-link class="nav-link" to="testing">Blog</router-link>
+          <router-link class="nav-link" to="about">Blog</router-link>
           <router-link class="nav-link" to="back">Back</router-link>
         </div>
 
@@ -58,7 +58,7 @@
         <router-link to="portfolio" class="mobile-link focus:outline-none"
           >Projects
         </router-link>
-        <router-link to="blog" class="mt-1 mobile-link focus:outline-none"
+        <router-link to="about" class="mt-1 mobile-link focus:outline-none"
           >Blog
         </router-link>
         <router-link to="about" class="mt-1 mobile-link focus:outline-none"

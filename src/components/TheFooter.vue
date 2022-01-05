@@ -18,7 +18,7 @@
             <a
               href="https://twitter.com/devggaurav"
               class="text-primary hover:underline"
-              >devggaurav.</a
+              >fAker.</a
             >
           </p>
         </div>

@@ -6,6 +6,7 @@ import App from "./App.vue";
 import "./assets/tailwind.css";
 
 import TheHome from "./pages/TheHome.vue";
+import About from "./pages/About.vue";
 
 const app = createApp(App);
 
@@ -15,6 +16,10 @@ const router = createRouter({
     {
       path: "/",
       component: TheHome,
+    },
+    {
+      path: "/about",
+      component: About,
     },
   ],
   linkActiveClass: "active",
