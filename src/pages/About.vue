@@ -14,6 +14,15 @@
       <p>
         Apart from my coding skills i've learned about soft skills or Scrum.
       </p>
+      <p>
+        Besides coding, I like playing football and running. I'm also really
+        into the crypto world and economics.
+      </p>
+      <p>
+        In my free time when i'm not coding, I enjoy playing football and
+        running, I'm also really enthusiastic about the crypto world and
+        economics
+      </p>
     </div>
     <div class="fill">
       <p>Location: Buenos Aires, Argentina</p>
