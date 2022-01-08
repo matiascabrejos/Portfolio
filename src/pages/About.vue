@@ -35,6 +35,12 @@
     <div class="touch">
       <h1 class="text-title">Get In Touch</h1>
       <p>Feel free to:</p>
+      <ul>
+        <li>Adele</li>
+        <li>Agnes</li>
+        <li>Billy</li>
+        <li>Bob</li>
+      </ul>
     </div>
     <div>
       <h1 class="text-title">What's Next?</h1>
@@ -58,5 +64,18 @@
 .text-title {
   @apply py-4 text-base font-semibold;
   color: #17b5cb;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #17b5cb; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 1em; /* Also needed for space (tweak if needed) */
 }
 </style>
