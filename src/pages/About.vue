@@ -36,8 +36,8 @@
       <h1 class="text-title">Get In Touch</h1>
       <p>Feel free to:</p>
       <ul>
-        <li>Adele</li>
-        <li>Agnes</li>
+        <li>DM me on Twitter ⚡</li>
+        <li>📧 me at matias.cabrejos@hotmail.com</li>
         <li>Billy</li>
         <li>Bob</li>
       </ul>
