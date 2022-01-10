@@ -38,8 +38,6 @@
       <ul>
         <li>DM me on Twitter ⚡</li>
         <li>📧 me at matias.cabrejos@hotmail.com</li>
-        <li>Billy</li>
-        <li>Bob</li>
       </ul>
     </div>
     <div>
