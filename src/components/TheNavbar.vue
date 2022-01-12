@@ -12,7 +12,7 @@
 
         <div class="navbar hidden md:block">
           <router-link class="nav-link" to="test">Portfolio</router-link>
-          <router-link class="nav-link" to="about">Blog</router-link>
+          <router-link class="nav-link" to="about">About</router-link>
           <router-link class="nav-link" to="back">Back</router-link>
         </div>
 
