@@ -20,6 +20,9 @@
         running, I'm also really enthusiastic about the crypto world and
         economics
       </p>
+      <p>
+        I’m looking forward to new challenges
+      </p>
     </div>
     <div class="fill">
       <p>Location: Buenos Aires, Argentina</p>
