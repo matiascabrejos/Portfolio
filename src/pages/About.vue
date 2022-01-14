@@ -25,7 +25,7 @@
       </p>
       <p>Full availability</p>
     </div>
-    <div class="fill">
+    <div class="fill text-base font-semibold">
       <p>Location: Buenos Aires, Argentina</p>
       <p>Languages: English, Spanish</p>
     </div>
