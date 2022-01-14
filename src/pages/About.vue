@@ -23,6 +23,7 @@
       <p>
         I’m looking forward to new challenges
       </p>
+      <p>Full availability</p>
     </div>
     <div class="fill">
       <p>Location: Buenos Aires, Argentina</p>
