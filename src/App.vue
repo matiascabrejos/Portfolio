@@ -1,23 +1,25 @@
 <template>
   <the-navbar></the-navbar>
-  <router-view></router-view>
+  <router-view v-slot="slotProps">
+    <transition name="route" mode="out-in">
+      <component :is="slotProps.Component"></component>
+    </transition>
+  </router-view>
   <the-footer></the-footer>
 </template>
 
 <script>
 import TheNavbar from "./components/TheNavbar.vue";
-import TheFooter from './components/TheFooter.vue'
+import TheFooter from "./components/TheFooter.vue";
 export default {
-  components: { TheNavbar, TheFooter} ,
+  components: { TheNavbar, TheFooter },
 };
 </script>
 
-
-#app {
+<style>
+body {
   background-color: #0e1118;
 }
-
-<style>
 .route-enter-from {
   opacity: 0;
 }
@@ -34,8 +36,4 @@ export default {
 .route-leave-from {
   opacity: 1;
 }
-body {
-  background-color: #444444;
-}
 </style>
-

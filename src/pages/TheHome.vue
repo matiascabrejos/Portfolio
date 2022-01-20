@@ -1,6 +1,8 @@
 <template>
-  <the-hero></the-hero>
-  <projects-grid></projects-grid>
+  <div>
+    <the-hero></the-hero>
+    <projects-grid></projects-grid>
+  </div>
 </template>
 
 <script>
