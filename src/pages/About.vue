@@ -40,7 +40,7 @@
       <h1 class="text-title">Get In Touch</h1>
       <p>Feel free to:</p>
       <ul>
-        <li>DM me on Twitter ⚡</li>
+        <li>DM me on Linkedin ⚡</li>
         <li>📧 me at matias.cabrejos@hotmail.com</li>
       </ul>
     </div>
