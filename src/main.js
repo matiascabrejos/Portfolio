@@ -7,6 +7,7 @@ import "./assets/tailwind.css";
 
 import TheHome from "./pages/TheHome.vue";
 import About from "./pages/About.vue";
+import NotFound from "./pages/NotFound.vue";
 
 const app = createApp(App);
 
@@ -21,6 +22,7 @@ const router = createRouter({
       path: "/about",
       component: About,
     },
+    { path: "/:notFound(.*)", component: NotFound },
   ],
   linkActiveClass: "active",
 });
