@@ -6,7 +6,6 @@
         >Matías
       </h2>
       <h3 class="hero-text">Front-End Developer</h3>
-      <p class="text-lg lg:text-xl font-semibold">Fill text</p>
       <tech-stack></tech-stack>
       <div class="mt-5"></div>
     </div>
