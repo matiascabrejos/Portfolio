@@ -1,7 +1,8 @@
 <template>
   <div class="text-white wrapper">
+    <h1 class="about-me">About <span class="span-about">Me</span></h1>
     <div class="intro">
-      <h1 class="text-title">Hi there!</h1>
+      <h1 class="text-title">Hi there! Let me introduce myself</h1>
       <p>
         I'm Matías Cabrejos, a Front-End Developer who is passionate about
         programming and especially of VueJS.
@@ -20,14 +21,18 @@
         running, I'm also really enthusiastic about the crypto world and
         economics
       </p>
-      <p>
-        I’m looking forward to new challenges
-      </p>
+      <p>I’m looking forward to new challenges</p>
       <p>Full availability</p>
+      <p>
+        I'm currently available for freelance projects or full-time work. If
+        you're interested in working with me, please get in touch using one of
+        the methods below.
+      </p>
     </div>
     <div class="fill text-base font-semibold">
       <p>Location: Buenos Aires, Argentina</p>
       <p>Languages: English, Spanish</p>
+      <p>Email: matias.cabrejos@hotmail.com</p>
     </div>
     <div class="what">
       <h1 class="text-title">What I Do Well</h1>
@@ -79,5 +84,14 @@ ul li::before {
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: 1em; /* Also needed for space (tweak if needed) */
+}
+
+.about-me {
+  @apply font-bold text-2xl md:text-3xl lg:text-4xl text-white text-center;
+}
+
+.span-about {
+  @apply animate-pulse;
+  color: #17b5cb;
 }
 </style>
