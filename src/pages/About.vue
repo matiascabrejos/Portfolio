@@ -13,6 +13,10 @@
         skills
       </p>
       <p>
+        Besides coding I've learned about soft skills like Communication,
+        Flexibility, TeamWork and Self-Confidence in order to become a well rounded developer.
+      </p>
+      <p>
         Besides coding, I enjoy playing football and running. I'm also really
         interested into the crypto world and economics.
       </p>
