@@ -14,7 +14,8 @@
       </p>
       <p>
         Besides coding I've learned about soft skills like Communication,
-        Flexibility, TeamWork and Self-Confidence in order to become a well rounded developer.
+        Flexibility, TeamWork and Self-Confidence in order to become a well
+        rounded developer.
       </p>
       <p>
         Besides coding, I enjoy playing football and running. I'm also really
@@ -44,6 +45,7 @@
         Tech Stack: HTML, CSS, Sass, Tailwind CSS, JavaScript, VueJS, NuxtJS
       </p>
       <p>Deployment: Firebase, Netlify, Heroku</p>
+      <p>Soft Skills: Communication, Flexibility, TeamWork, Self-Confidence</p>
     </div>
     <div class="touch">
       <h1 class="text-title">Get In Touch</h1>
