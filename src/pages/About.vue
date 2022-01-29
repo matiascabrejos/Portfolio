@@ -1,6 +1,9 @@
 <template>
   <div class="text-white wrapper">
     <h1 class="about-me">About <span class="span-about">Me</span></h1>
+    <div class="w-full mb-4">
+      <div class="bg-line"></div>
+    </div>
     <div class="intro">
       <h1 class="text-title">Hi there! Let me introduce myself</h1>
       <p>
@@ -79,6 +82,11 @@
   color: #17b5cb;
 }
 
+.bg-line {
+  @apply h-1 mx-auto w-64 my-0 py-0 rounded-t;
+  background-color: #17b5cb;
+}
+
 ul {
   list-style: none; /* Remove default bullets */
 }
@@ -93,7 +101,7 @@ ul li::before {
 }
 
 .about-me {
-  @apply font-bold text-2xl md:text-3xl lg:text-4xl text-white text-center;
+  @apply font-bold text-2xl md:text-3xl lg:text-4xl text-white text-center my-2 ;
 }
 
 .span-about {
