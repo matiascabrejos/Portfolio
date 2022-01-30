@@ -5,6 +5,7 @@
       <div class="bg-line"></div>
     </div>
     <div class="intro">
+      <img src="images/faker.jpg" class="rounded-xl mx-auto" alt="" />
       <h1 class="text-title">Hi there! Let me introduce myself</h1>
       <p>
         I'm Matías Cabrejos, a Front-End Developer who is passionate about
