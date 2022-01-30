@@ -83,7 +83,7 @@
 }
 
 .bg-line {
-  @apply h-1 mx-auto w-64 my-0 py-0 rounded-t;
+  @apply h-1 mx-auto w-64 my-0 py-0 rounded-t animate-pulse;
   background-color: #17b5cb;
 }
 
@@ -92,6 +92,7 @@ ul {
 }
 
 ul li::before {
+  @apply animate-pulse;
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #17b5cb; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
@@ -101,7 +102,7 @@ ul li::before {
 }
 
 .about-me {
-  @apply font-bold text-2xl md:text-3xl lg:text-4xl text-white text-center my-2 ;
+  @apply font-bold text-2xl md:text-3xl lg:text-4xl text-white text-center my-2;
 }
 
 .span-about {
