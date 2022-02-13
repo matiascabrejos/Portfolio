@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-white text-center">
+  <h1 class="text-center py-4 mr-2 text-base font-semibold text-white">
     Page not found - Go to
     <router-link to="/" class="link">Home</router-link> or
     <router-link to="/about" class="link">About</router-link>
