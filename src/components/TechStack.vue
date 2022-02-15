@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex justify-center items-center">
-      <h1 class="text-center py-4 mr-2 text-base font-semibold text-white">Tech Stack</h1>
+      <h1 class="text-tech">Tech Stack</h1>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -20,39 +20,41 @@
       </svg>
     </div>
     <div class="flex items-center justify-center">
-      <div class="inline-grid lg:grid-cols-4 md:grid-cols-4 grid-cols-4 gap-10 py-6">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-            class="animate-pulse img"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-            class="animate-pulse"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-            class="animate-pulse"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-            class="animate-pulse"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            class="animate-pulse"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
-            class="animate-pulse"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
-            class="animate-pulse"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-            class="animate-pulse"
-          />
+      <div
+        class="inline-grid lg:grid-cols-4 md:grid-cols-4 grid-cols-4 gap-10 py-6"
+      >
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          class="animate-pulse img"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+          class="animate-pulse"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+          class="animate-pulse"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+          class="animate-pulse"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          class="animate-pulse"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+          class="animate-pulse"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
+          class="animate-pulse"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+          class="animate-pulse"
+        />
       </div>
     </div>
   </div>
@@ -62,5 +64,9 @@
 img {
   width: 46px;
   height: 46px;
+}
+
+.text-tech {
+  @apply text-center py-4 mr-2 text-base font-semibold text-white;
 }
 </style>
