@@ -3,7 +3,7 @@
     <div
       class="flex justify-center items-center text-base font-semibold text-white"
     >
-      <h2 class="text-center py-4 mr-2">Featured Projects</h2>
+      <h2 class="text-projects">Featured Projects</h2>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -35,9 +35,9 @@
               <h2 class="title-grid">ENCRYPTION</h2>
             </router-link>
             <div class="span-group">
-            <span class="span-grid"> #NuxtJS </span>
-            <span class="span-grid"> #TailwindCSS </span>
-            <span class="span-grid"> #daisyUI </span>
+              <span class="span-grid"> #NuxtJS </span>
+              <span class="span-grid"> #TailwindCSS </span>
+              <span class="span-grid"> #daisyUI </span>
             </div>
             <p class="description-grid">
               Crypto app where the info is fetched from CoinGecko API. The info
@@ -72,9 +72,9 @@
               <h2 class="title-grid">iNOTES</h2>
             </router-link>
             <div class="span-group">
-            <span class="span-grid"> #VueJS </span>
-            <span class="span-grid"> #TailwindCSS </span>
-            <span class="span-grid"> #Firebase </span>
+              <span class="span-grid"> #VueJS </span>
+              <span class="span-grid"> #TailwindCSS </span>
+              <span class="span-grid"> #Firebase </span>
             </div>
             <p class="description-grid">
               Notes app where you can upload a note and it will be display on
@@ -110,8 +110,8 @@
               <h2 class="title-grid">Travelify</h2>
             </router-link>
             <div class="span-group">
-            <span class="span-grid"> #VueJS </span>
-            <span class="span-grid"> #TailwindCSS </span>
+              <span class="span-grid"> #VueJS </span>
+              <span class="span-grid"> #TailwindCSS </span>
             </div>
             <p class="description-grid">
               Landing page from a travel app. It has a Check-In form in one of
@@ -146,9 +146,9 @@
               <h2 class="title-grid">Gamerce</h2>
             </router-link>
             <div class="span-group">
-            <span class="span-grid"> #HTML </span>
-            <span class="span-grid"> #Sass </span>
-            <span class="span-grid"> #JavaScript </span>
+              <span class="span-grid"> #HTML </span>
+              <span class="span-grid"> #Sass </span>
+              <span class="span-grid"> #JavaScript </span>
             </div>
             <p class="description-grid">
               Landing page from a gaming app. It has a Check-In form in one of
@@ -230,5 +230,9 @@
 
 .flex-center {
   @apply flex justify-center items-center;
+}
+
+.text-projects {
+  @apply text-center py-4 mr-2 text-base font-semibold text-white;
 }
 </style>
