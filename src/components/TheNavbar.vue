@@ -4,7 +4,7 @@
       <div class="px-10 flex justify-between items-center">
         <div class="logo">
           <router-link to="/">
-            <h1 class="text-2xl font-semibold text-white">
+            <h1 class="navbar-text-logo">
               <span class="font-bold">mAt</span>deV.
             </h1>
           </router-link>
@@ -114,5 +114,9 @@ a.active {
 
 a:hover {
   color: #17b5cb;
+}
+
+.navbar-text-logo {
+  @apply text-2xl font-semibold text-white;
 }
 </style>
