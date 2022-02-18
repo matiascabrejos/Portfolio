@@ -17,7 +17,7 @@
 }
 
 .border-wrapper {
-  @apply border-2 inline-block m-2;
+  @apply border-2 inline-block m-8 rounded-xl;
   border-color: #17b5cb;
 }
 
