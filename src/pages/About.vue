@@ -7,6 +7,7 @@
     <div class="intro">
       <img src="images/faker.jpg" class="rounded-xl mx-auto" alt="" />
       <h1 class="text-title">Hi there! Let me introduce myself</h1>
+      <div class="text-description">
       <p>
         I'm Matías Cabrejos, a Front-End Developer who is passionate about
         programming and especially of VueJS.
@@ -37,6 +38,7 @@
         you're interested in working with me, please get in touch using one of
         the methods below.
       </p>
+      </div>
     </div>
     <div class="fill text-base font-semibold">
       <p>Location: Buenos Aires, Argentina</p>
@@ -81,6 +83,10 @@
 .text-title {
   @apply py-4 text-base font-semibold;
   color: #17b5cb;
+}
+
+.text-description {
+  @apply text-base font-semibold text-white;
 }
 
 .bg-line {
