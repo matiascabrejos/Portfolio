@@ -77,7 +77,7 @@
 
 <style scoped>
 .wrapper {
-  @apply max-w-screen-xl mx-auto my-4;
+  @apply max-w-screen-xl lg:mx-auto mx-2 my-4;
 }
 
 .text-title {
