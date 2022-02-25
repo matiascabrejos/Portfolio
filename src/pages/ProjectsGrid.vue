@@ -26,7 +26,10 @@
       <div class="md:flex mt-10">
         <div class="img-grid">
           <router-link to="/">
-            <img src="images/JMSpEWc.png" class="rounded-xl" alt="" />
+            <img src="images/JMSpEWc.png" class="rounded-xl transform
+          transition
+          duration-100
+          hover:scale-105" alt="" />
           </router-link>
         </div>
         <div class="wrapper-project">
