@@ -8,36 +8,36 @@
       <img src="images/faker.jpg" class="rounded-xl mx-auto" alt="" />
       <h1 class="text-title">Hi there! Let me introduce myself</h1>
       <div class="text-description">
-      <p>
-        I'm Matías Cabrejos, a Front-End Developer who is passionate about
-        programming and especially of VueJS.
-      </p>
-      <p>I’m always curious about new skills, tools, and concepts.</p>
-      <p>
-        I'm constantly learning about technologies, scrum and improving my soft
-        skills
-      </p>
-      <p>
-        Besides coding I've learned about soft skills like Communication,
-        Flexibility, TeamWork and Self-Confidence in order to become a well
-        rounded developer.
-      </p>
-      <p>
-        Besides coding, I enjoy playing football and running. I'm also really
-        interested into the crypto world and economics.
-      </p>
-      <p>
-        In my free time when i'm not coding, I enjoy playing football and
-        running, I'm also really enthusiastic about the crypto world and
-        economics
-      </p>
-      <p>I’m looking forward to new challenges</p>
-      <p>Full availability</p>
-      <p>
-        I'm currently available for freelance projects or full-time work. If
-        you're interested in working with me, please get in touch using one of
-        the methods below.
-      </p>
+        <p>
+          I'm Matías Cabrejos, a Front-End Developer who is passionate about
+          programming and especially of VueJS.
+        </p>
+        <p>I’m always curious about new skills, tools, and concepts.</p>
+        <p>
+          I'm constantly learning about technologies, scrum and improving my
+          soft skills
+        </p>
+        <p>
+          Besides coding I've learned about soft skills like Communication,
+          Flexibility, TeamWork and Self-Confidence in order to become a well
+          rounded developer.
+        </p>
+        <p>
+          Besides coding, I enjoy playing football and running. I'm also really
+          interested into the crypto world and economics.
+        </p>
+        <p>
+          In my free time when i'm not coding, I enjoy playing football and
+          running, I'm also really enthusiastic about the crypto world and
+          economics
+        </p>
+        <p>I’m looking forward to new challenges</p>
+        <p>Full availability</p>
+        <p>
+          I'm currently available for freelance projects or full-time work. If
+          you're interested in working with me, please get in touch using one of
+          the methods below.
+        </p>
       </div>
     </div>
     <div class="fill text-base font-semibold">
@@ -113,7 +113,6 @@ ul li::before {
 }
 
 .span-about {
-  @apply animate-pulse;
   color: #17b5cb;
 }
 </style>
