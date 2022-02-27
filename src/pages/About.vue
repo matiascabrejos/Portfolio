@@ -58,7 +58,7 @@
       <p>Feel free to:</p>
       <ul>
         <li>DM me on Linkedin ⚡</li>
-        <li>📧 me at matias.cabrejos@hotmail.com</li>
+        <li>📧 me at <a href="mailto:matias.cabrejos@hotmail.com">matias.cabrejos@hotmail.com</a> matias.cabrejos@gmail.com</li>
       </ul>
     </div>
     <div>
