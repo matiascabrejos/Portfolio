@@ -16,7 +16,7 @@
           <p class="made-by-text">
             Made with ❤ by
             <a
-              href="https://twitter.com/devggaurav"
+              href="https://twitter.com/mcabrejos"
               class="text-primary hover:underline"
               >Matías Cabrejos.</a
             >
