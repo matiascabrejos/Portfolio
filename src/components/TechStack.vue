@@ -7,7 +7,7 @@
         xmlns:xlink="http://www.w3.org/1999/xlink"
         aria-hidden="true"
         role="img"
-        class="iconify iconify--mdi h-4 w-4 animate-bounce mt-2"
+        class="iconify iconify--mdi h-4 w-4 animate-bounce mt-2 color"
         width="32"
         height="32"
         preserveAspectRatio="xMidYMid meet"
@@ -68,5 +68,9 @@ img {
 
 .text-tech {
   @apply text-center py-4 mr-2 text-base font-semibold text-white;
+}
+
+.color {
+  color: #17b5cb;
 }
 </style>
