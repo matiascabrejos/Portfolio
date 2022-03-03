@@ -17,14 +17,21 @@ const router = createRouter({
     {
       path: "/",
       component: TheHome,
+      name: "Home",
     },
     {
       path: "/about",
       component: About,
+      name: "About",
     },
-    { path: "/:notFound(.*)", component: NotFound },
+    { path: "/:notFound(.*)", component: NotFound, name: "Not Found" },
   ],
   linkActiveClass: "active",
+});
+
+router.beforeEach((to, from, next) => {
+  document.title = to.name;
+  next();
 });
 
 app.use(router);
