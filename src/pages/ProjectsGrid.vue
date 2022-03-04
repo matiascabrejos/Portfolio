@@ -3,13 +3,13 @@
     <div
       class="flex justify-center items-center text-base font-semibold text-white"
     >
-      <h2 class="text-projects">Featured Projects</h2>
+      <h1 class="text-projects">Featured Projects</h1>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         aria-hidden="true"
         role="img"
-        class="iconify iconify--mdi h-4 w-4 animate-bounce mt-2"
+        class="iconify iconify--mdi h-4 w-4 animate-bounce mt-2 color"
         width="32"
         height="32"
         preserveAspectRatio="xMidYMid meet"
@@ -26,10 +26,11 @@
       <div class="md:flex mt-10">
         <div class="img-grid">
           <router-link to="/">
-            <img src="images/JMSpEWc.png" class="rounded-xl transform
-          transition
-          duration-100
-          hover:scale-105" alt="" />
+            <img
+              src="images/JMSpEWc.png"
+              class="rounded-xl transform transition duration-100 hover:scale-105"
+              alt=""
+            />
           </router-link>
         </div>
         <div class="wrapper-project">
@@ -237,5 +238,9 @@
 
 .text-projects {
   @apply text-center py-4 mr-2 text-base font-semibold text-white;
+}
+
+.color {
+  color: #17b5cb;
 }
 </style>
