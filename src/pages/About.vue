@@ -5,7 +5,7 @@
       <div class="bg-line"></div>
     </div>
     <div class="intro">
-      <img src="images/faker.jpg" class="rounded-xl mx-auto" alt="" />
+      <img src="images/faker.jpg" class="rounded-xl mx-auto my-2" alt="" />
       <h1 class="text-title">Hi there! Let me introduce myself</h1>
       <div class="text-description">
         <p>
