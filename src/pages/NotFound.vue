@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">
+  <div class="text-center h-screen">
     <div class="border-wrapper">
       <h1 class="text-not-found">
         Page not found - Go to
