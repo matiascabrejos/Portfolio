@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center h-screen">
+  <div class="text-center">
     <div class="border-wrapper">
       <h1 class="text-not-found">
         Page not found - Go to
@@ -17,7 +17,7 @@
 }
 
 .border-wrapper {
-  @apply border-2 inline-block m-10 rounded-xl animate-pulse;
+  @apply border-2 inline-block m-20 rounded-xl animate-pulse;
   border-color: #17b5cb;
 }
 
