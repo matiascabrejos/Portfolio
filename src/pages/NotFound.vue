@@ -17,7 +17,7 @@
 }
 
 .border-wrapper {
-  @apply border-2 inline-block m-32 rounded-xl animate-pulse;
+  @apply border-2 inline-block m-64 rounded-xl animate-pulse;
   border-color: #17b5cb;
 }
 
