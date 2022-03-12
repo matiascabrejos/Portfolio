@@ -7,6 +7,7 @@
         <router-link to="/about" class="link">About</router-link>
       </h1>
       <h1>Not Found</h1>
+      <h1>Page Not Found</h1>
     </div>
   </div>
 </template>
