@@ -10,6 +10,7 @@
       <h1>Page Not Found</h1>
       <h1>Woops! Something went wrong - Page not found</h1>
       <h1>Maybe go to Home or About</h1>
+      <h1>Redirect to Home or About</h1>
     </div>
   </div>
 </template>
