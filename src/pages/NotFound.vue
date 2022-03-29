@@ -9,6 +9,7 @@
       <h1>Page Not Found</h1>
       <h1>Change effect => Remember</h1>
       <h1>Change route of the page</h1>
+      <h1>Make page screen of the device</h1>
     </div>
   </div>
 </template>
