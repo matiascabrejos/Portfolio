@@ -5,7 +5,7 @@
         <div class="logo">
           <router-link to="/">
             <h1 class="navbar-text-logo">
-              <span class="font-bold">mAt</span>deV.
+              <span class="font-bold">M.</span>Cabrejos
             </h1>
           </router-link>
         </div>
