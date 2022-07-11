@@ -4,19 +4,12 @@
       <div
         class="flex flex-col items-center justify-between mt-6 md:mt-0 md:flex-row"
       >
-        <div class="logo">
-          <nuxt-link to="/">
-            <h1>
-              <span class="text-primary font-bold">mAt</span>dev.
-            </h1>
-          </nuxt-link>
-        </div>
-
+        <div class="logo"></div>
         <div class="made-by-wrapper">
           <p class="made-by-text">
             Made with ❤ by
             <a
-              href="https://twitter.com/mcabrejos"
+              href="https://www.linkedin.com/in/matias-ignacio-cabrejos-103a83220/"
               class="text-primary hover:underline"
               >Matías Cabrejos.</a
             >

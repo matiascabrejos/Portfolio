@@ -13,7 +13,6 @@
         <div class="navbar hidden md:block">
           <router-link class="nav-link" to="/">Home</router-link>
           <router-link class="nav-link" to="about">About</router-link>
-          <router-link class="nav-link" to="back">Not Found</router-link>
         </div>
 
         <div class="ml-3 flex md:hidden">
@@ -60,9 +59,6 @@
         </router-link>
         <router-link to="about" class="mt-1 mobile-link focus:outline-none"
           >About
-        </router-link>
-        <router-link to="back" class="mt-1 mobile-link focus:outline-none"
-          >Not Found
         </router-link>
       </div>
     </div>

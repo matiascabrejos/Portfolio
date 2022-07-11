@@ -1,81 +1,93 @@
 <template>
   <div class="text-white wrapper">
-    <h1 class="about-me">About <span class="span-about">Me</span></h1>
-    <div class="w-full mb-4">
-      <div class="bg-line"></div>
-    </div>
+    <h1 class="about-me span-about">About Me</h1>
     <div class="intro">
-      <img src="images/faker.jpg" class="rounded-xl mx-auto my-2" alt="" />
+      <p class="text-center text-description leading-relaxed">Matías Cabrejos</p>
+      <img
+        src="images/profilepic2.jpg"
+        class="rounded-xl mx-auto my-2 object-scale-down w-60"
+        alt=""
+      />
+      <div class="text-center text-description">
+        <p class="span-about leading-relaxed">Vue Developer</p>
+        <p class="leading-relaxed">Location: Buenos Aires, Argentina</p>
+        <p class="leading-relaxed">Languages: English, Spanish</p>
+        <div class="w-full mb-4"></div>
+        <div class="bg-line"></div>
+      </div>
       <h1 class="text-title">Hi there! Let me introduce myself</h1>
       <div class="text-description">
-        <p>
+        <p class="leading-relaxed">
           I'm Matías Cabrejos, a Front-End Developer who is passionate about
           programming and especially of VueJS.
         </p>
-        <p>I’m always curious about new skills, tools, and concepts.</p>
-        <p>
-          I'm constantly learning about technologies, scrum and improving my
-          soft skills
+        <p class="leading-relaxed">
+          I'm always curious about new skills, tools, and concepts. This gets me
+          to being constantly learning about new technologies.
         </p>
-        <p>
-          Besides coding I've learned about soft skills like Communication,
-          Flexibility, TeamWork and Self-Confidence in order to become a well
-          rounded developer.
+        <p class="leading-relaxed">
+          I strongly believe that being a good developer is more than just
+          knowing how to write code. So I've learned about soft skills like
+          Communication, Flexibility, TeamWork and Self-Confidence in order to
+          become a well rounded developer.
         </p>
-        <p>
+        <p class="leading-relaxed">
+          I've learned english since I was a kid. I can speak and write english
+          fluently.
+        </p>
+        <p class="leading-relaxed">
           Besides coding, I enjoy playing football and running. I'm also really
           interested into the crypto world and economics.
         </p>
-        <p>
-          In my free time when i'm not coding, I enjoy playing football and
-          running, I'm also really enthusiastic about the crypto world and
-          economics
+        <p class="leading-relaxed">
+          I'm looking forward to new challenges. I'm open minded about learning
+          a new tech stack if needed.
         </p>
-        <p>I’m looking forward to new challenges</p>
-        <p>Full availability</p>
-        <p>
+        <p class="leading-relaxed">
           I'm currently available for freelance projects or full-time work. If
           you're interested in working with me, please get in touch using one of
           the methods below.
         </p>
       </div>
     </div>
-    <div class="fill text-base font-semibold">
-      <p>Location: Buenos Aires, Argentina</p>
-      <p>Languages: English, Spanish</p>
-      <p>Email: matias.cabrejos@hotmail.com</p>
-    </div>
-    <div class="what">
+    <div class="text-description">
       <h1 class="text-title">What I Do Well</h1>
-      <p>
-        Tech Stack: HTML, CSS, Sass, Tailwind CSS, JavaScript, VueJS, NuxtJS
+      <p class="leading-relaxed">
+        Tech Stack: HTML, CSS, Sass, Tailwind CSS, JavaScript, VueJS, NuxtJS.
       </p>
-      <p>Deployment: Firebase, Netlify, Heroku</p>
-      <p>Soft Skills: Communication, Flexibility, TeamWork, Self-Confidence</p>
+      <p class="leading-relaxed">
+        Deployment: Firebase, Netlify, Heroku, Vercel.
+      </p>
+      <p class="leading-relaxed">
+        Soft Skills: Communication, Flexibility, TeamWork, Self-Confidence.
+      </p>
     </div>
-    <div class="touch">
+    <div class="text-description">
       <h1 class="text-title">Get In Touch</h1>
-      <p>Feel free to:</p>
+      <p class="leading-relaxed">Feel free to:</p>
       <ul>
-        <li>DM me on Linkedin ⚡</li>
-        <li>
-          📧 me at
-          <a href="mailto:matias.cabrejos@gmail.com"
-            >matias.cabrejos@gmail.com</a
+        <li class="leading-relaxed">
+          DM me on
+          <a
+            href="https://www.linkedin.com/in/matias-ignacio-cabrejos-103a83220/"
+            >Linkedin ⚡.</a
           >
-          matias.cabrejos@gmail.com
+        </li>
+        <li class="leading-relaxed">
+          📧 me at
+          <a href="mailto:cabrejosmts@gmail.com">cabrejosmts@gmail.com.</a>
         </li>
       </ul>
     </div>
-    <div>
+    <div class="text-description">
       <h1 class="text-title">What's Next?</h1>
-      <p>
+      <p class="leading-relaxed">
         Every day I code in order to get better about the skills I currently
         have.
       </p>
-      <p>
-        Right now I'm learning about Back-End using technologies as NodeJS,
-        ExpressJS. As well as databases as SQL, MongoDB.
+      <p class="leading-relaxed">
+        Right now I'm learning about Back-End development using technologies as
+        NodeJS, ExpressJS and Databases as SQL, MongoDB.
       </p>
     </div>
   </div>
@@ -83,7 +95,7 @@
 
 <style scoped>
 .wrapper {
-  @apply max-w-screen-xl lg:mx-auto mx-2 my-4;
+  @apply max-w-screen-xl lg:mx-auto mx-2 my-4 text-center lg:text-left md:text-left;
 }
 
 .text-title {
@@ -96,7 +108,7 @@
 }
 
 .bg-line {
-  @apply h-1 mx-auto w-64 my-0 py-0 rounded-t animate-pulse;
+  @apply h-1 mx-auto w-60 my-0 py-0 rounded-t animate-pulse;
   background-color: #17b5cb;
 }
 
@@ -119,6 +131,10 @@ ul li::before {
 }
 
 .span-about {
+  color: #17b5cb;
+}
+
+a:hover {
   color: #17b5cb;
 }
 </style>

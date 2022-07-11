@@ -26,11 +26,7 @@
       <div class="md:flex mt-10">
         <div class="img-grid">
           <router-link to="/">
-            <img
-              src="images/JMSpEWc.png"
-              class="rounded-xl transform transition duration-100 hover:scale-105"
-              alt=""
-            />
+            <img src="images/cryptoapp.png" class="img-effect" alt="" />
           </router-link>
         </div>
         <div class="wrapper-project">
@@ -44,19 +40,25 @@
               <span class="span-grid"> #daisyUI </span>
             </div>
             <p class="description-grid">
-              Crypto app where the info is fetched from CoinGecko API. The info
-              is presented in two ways, table view and panel view.
+              Cryptocurrencies app where the info is fetched from CoinGecko API.
+              The info is presented in two ways, table view and panel view.
             </p>
             <div>
               <div class="btn-group">
-                <button class="btn-grid btn-one text-white">
+                <a
+                  class="btn-grid btn-one text-white"
+                  href="https://nuxt-crypto.vercel.app/"
+                >
                   <i class="fa fa-laptop"></i>
                   See Project
-                </button>
-                <button class="btn-grid btn-two ml-6">
+                </a>
+                <a
+                  class="btn-grid btn-two ml-6"
+                  href="https://github.com/matiascabrejos/Nuxt-Crypto-VTwo"
+                >
                   <i class="fa fa-github"></i>
                   Source Code
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -67,7 +69,52 @@
       <div class="md:flex mt-10">
         <div class="img-grid">
           <router-link to="/">
-            <img src="images/JMSpEWc.png" class="rounded-xl" alt="" />
+            <img src="images/mevnapp.png" class="img-effect" alt="" />
+          </router-link>
+        </div>
+        <div class="wrapper-project">
+          <div class="md:px-5 lg:px-0">
+            <router-link to="/">
+              <h2 class="title-grid">Blogginote</h2>
+            </router-link>
+            <div class="span-group">
+              <span class="span-grid"> #VueJS </span>
+              <span class="span-grid"> #NodeJS </span>
+              <span class="span-grid"> #Express </span>
+              <span class="span-grid"> #MongoDB </span>
+              <span class="span-grid"> #TailwindCSS </span>
+            </div>
+            <p class="description-grid">
+              Blogs app where you can upload, edit or delete a blog. Performing
+              CRUD operations on MEVN Stack.
+            </p>
+            <div>
+              <div class="btn-group">
+                <a
+                  class="btn-grid btn-one text-white"
+                  href="https://mevn-crud-app.herokuapp.com/#/"
+                >
+                  <i class="fa fa-laptop"></i>
+                  See Project
+                </a>
+                <a
+                  class="btn-grid btn-two ml-6"
+                  href="https://github.com/matiascabrejos/MEVN-DEPLOY"
+                >
+                  <i class="fa fa-github"></i>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-small my-5">
+      <div class="md:flex mt-10">
+        <div class="img-grid">
+          <router-link to="/">
+            <img src="images/notesapp.png" class="img-effect" alt="" />
           </router-link>
         </div>
         <div class="wrapper-project">
@@ -82,19 +129,25 @@
             </div>
             <p class="description-grid">
               Notes app where you can upload a note and it will be display on
-              the app. The backend and the user authentication is managed by
+              the app. The backend and user authentication is managed by
               firebase.
             </p>
             <div>
               <div class="btn-group">
-                <button class="btn-grid btn-one text-white">
+                <a
+                  class="btn-grid btn-one text-white"
+                  href="https://fir-login-e87c1.web.app/home"
+                >
                   <i class="fa fa-laptop"></i>
                   See Project
-                </button>
-                <button class="btn-grid btn-two ml-6">
+                </a>
+                <a
+                  class="btn-grid btn-two ml-6"
+                  href="https://github.com/matiascabrejos/Vue-Firebase-VTwo"
+                >
                   <i class="fa fa-github"></i>
                   Source Code
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -105,7 +158,7 @@
       <div class="md:flex mt-10">
         <div class="img-grid">
           <router-link to="/">
-            <img src="images/JMSpEWc.png" class="rounded-xl" alt="" />
+            <img src="images/travelapp.png" class="img-effect" alt="" />
           </router-link>
         </div>
         <div class="wrapper-project">
@@ -118,56 +171,25 @@
               <span class="span-grid"> #TailwindCSS </span>
             </div>
             <p class="description-grid">
-              Landing page from a travel app. It has a Check-In form in one of
-              the pages, as well as others features.
+              Landing page from a travel app. It has four pages: Home, Check-In,
+              Host and About us.
             </p>
             <div>
               <div class="btn-group">
-                <button class="btn-grid btn-one text-white">
+                <a
+                  class="btn-grid btn-one text-white"
+                  href="https://travelify-4fbf0.web.app/home"
+                >
                   <i class="fa fa-laptop"></i>
                   See Project
-                </button>
-                <button class="btn-grid btn-two ml-6">
+                </a>
+                <a
+                  class="btn-grid btn-two ml-6"
+                  href="https://github.com/matiascabrejos/Vue-Travel-VTwo"
+                >
                   <i class="fa fa-github"></i>
                   Source Code
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper-small my-5">
-      <div class="md:flex mt-10">
-        <div class="img-grid">
-          <router-link to="/">
-            <img src="images/JMSpEWc.png" class="rounded-xl" alt="" />
-          </router-link>
-        </div>
-        <div class="wrapper-project">
-          <div class="md:px-5 lg:px-0">
-            <router-link to="/">
-              <h2 class="title-grid">Gamerce</h2>
-            </router-link>
-            <div class="span-group">
-              <span class="span-grid"> #HTML </span>
-              <span class="span-grid"> #Sass </span>
-              <span class="span-grid"> #JavaScript </span>
-            </div>
-            <p class="description-grid">
-              Landing page from a gaming app. It has a Check-In form in one of
-              the pages, as well as others features.
-            </p>
-            <div>
-              <div class="btn-group">
-                <button class="btn-grid btn-one text-white">
-                  <i class="fa fa-laptop"></i>
-                  See Project
-                </button>
-                <button class="btn-grid btn-two ml-6">
-                  <i class="fa fa-github"></i>
-                  Source Code
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -242,5 +264,9 @@
 
 .color {
   color: #17b5cb;
+}
+
+.img-effect {
+  @apply rounded-xl transform transition duration-100 hover:scale-105;
 }
 </style>

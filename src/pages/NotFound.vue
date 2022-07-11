@@ -1,15 +1,11 @@
 <template>
-  <div class="text-center">
+  <div class="text-center" style="min-height: 80vh;">
     <div class="border-wrapper">
       <h1 class="text-not-found">
         Page not found - Go to
         <router-link to="/" class="link">Home</router-link> or
         <router-link to="/about" class="link">About</router-link>
       </h1>
-      <h1>Page Not Found</h1>
-      <h1>Change effect => Remember</h1>
-      <h1>Change route of the page</h1>
-      <h1>Make page screen of the device</h1>
     </div>
   </div>
 </template>
@@ -21,7 +17,7 @@
 }
 
 .border-wrapper {
-  @apply border-2 inline-block m-auto rounded-xl animate-pulse;
+  @apply border-2 inline-block m-auto rounded-xl animate-pulse p-4 my-28;
   border-color: #17b5cb;
 }
 
